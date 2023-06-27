@@ -1,0 +1,126 @@
+<html>
+<head>
+<style>th{background-color:black;width:120;height:40;border:1px solid black;float:left; text-align:center;color:white}
+td{background-color:skyblue;width:120;height:40;border:1px solid black;float:left; text-align:center;color:black}
+body{
+background-image:url("trains.svg");
+background-size:cover;
+}
+h2
+{color:white}
+.box{  
+  margin: 0 auto;
+  justify-content: center;
+  background-color:black;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 10px 0px 10px 20px;
+  width: 50%;
+  height: 5%; 
+}
+.button {
+  max-width:200px;
+  background-color:black;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+  font-family: inherit;
+  display: flex;
+  font-size: 50px;
+  padding: 10px 30px 10px 300px;
+  cursor: pointer;
+  margin: 0 auto;
+  color:white;
+  weight: 50%;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;
+opacity: 0.9;
+  padding: 10px 0px 20px 10px;
+  border-radius: 5px;
+  text-align: left;
+  line-height: 44px;
+  font-size: 18px;
+  color: white;
+}
+
+label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+select,
+textarea {
+  padding: 9px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+input:focus {
+  outline-color: red;
+}
+
+.button_container {
+  display: flex;
+
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+button {
+  background-color: red;
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+}
+button:hover {
+  background-color: #ccc;
+  border: 2px solid red;
+  color: black;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+</style>
+</head>
+</head>
+<body >
+<h2 class="box"><center>List of Running Trains with Arrival & Departure Timings</center></h2>
+<br><table align="center" border="2">
+
+<div class="form-group">
+				<center><input class="srch" type="search" name=" " placeholder="type to text">
+				<a href="#"> <button type ="btn"> <h4>   search    </h4></button></a></center>
+			</div>
+<tr>
+<th>S.NO </th><th>Train No. </th><th>Train Name</th><th> From </th><th>Departure Time </th><th> To</th>
+<th> Arival time</th><th> Frequency</th><th>select</th>
+</tr>
+<tr>
+<td>1</td><td> <b>01015</b> </td><td>LTT GKP SPL</td><td> Lokmanyatilak (T) </td><td>22:45</td> <td> Gorakhpur</td> <td>07:05 </td><td>Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>2</td><td><b> 01016</b> </td><td> KUSHINAGAR SPL </td><td>Gorakhpur</td><td> 19:00</td><td>  Lokmanyatilak (T) </td><td>04:20 </td><td>Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>3 </td><td><b>01019</b> </td><td> CSMT BBS SPL </td><td>Mumbai CST </td><td>15:05 </td><td>Bhubaneswar </td><td>04:35 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>4 </td><td><b>01020</b>  </td><td>BBS CSMT SPL</td><td> Bhubaneswar</td><td> 15:25 </td><td> Mumbai CST </td><td>03:55 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>5</td><td><b> 01061</b> </td><td> LTT DBG SPL </td><td>Lokmanyatilak (T) </td><td>12:15 </td><td>Darbhanga </td><td>01:10 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>6</td> <td><b>01062</b> </td><td> DBG LTT SPL </td><td>Darbhanga</td><td> 13:05 </td><td> Lokmanyatilak (T)</td><td> 03:40 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>8</td><td> <b>01072</b>  </td><td>KAMAYANI EXP SPL </td><td>Varanasi </td><td>15:50 </td><td> Lokmanyatilak (T) </td><td>22:50 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>9</td><td> <b>01093</b> </td><td> CSMT BSB SPL </td><td>Mumbai CST</td><td> 00:10 </td><td> Varanasi</td><td> 04:40 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>10 </td><td><b>01094</b> </td><td> MAHANAGARI SPL</td><td> Varanasi</td><td> 11:20 </td><td> Mumbai CST </td><td>14:15 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>11</td><td><b> 01139</b> </td><td> CSMT GDG SPL</td><td> Mumbai CST</td><td> 21:20 </td><td>Gadag </td><td>12:20 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>12</td> <td><b>01140</b> </td><td> GDG CSMT EXP</td><td> Gadag</td><td> 13:40 </td><td> Mumbai CST</td><td> 05:10 </td><td>Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>13 </td><td><b>01301</b> </td><td> CSMT SBC SPL </td><td>Mumbai CST</td><td> 08:10 </td><td> Ksr Bengaluru </td><td>08:50 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>14 </td><td><b>01302</b>  </td><td>UDYAN EXP Ksr </td><td>Bengaluru</td><td> 20:30 </td><td> Mumbai CST</td><td> 20:15 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>15 </td><td><b>02155 </b> </td><td>HBJ NZM SPL </td><td>Habibganj</td><td> 21:05 </td><td> H. Nizamuddin </td><td>08:00 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>16 </td><td><b>02156</b> </td><td> NZM HBJ SPL H.</td><td> Nizamuddin </td><td>20:55 </td><td> Habibganj </td><td>07:05 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>17 </td><td><b>02229</b> </td><td> LUCKNOW MAIL SPL</td><td> Lucknow Jn</td><td> 22:00 </td><td> New Delhi</td><td> 06:50 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>18 </td><td><b>02230 </b> </td><td>LUCKNOW MAIL SPL </td><td>New Delhi </td><td>22:05 </td><td> Lucknow Jn </td><td>06:55 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>19</td><td> <b>02295 </b> </td><td>SANGHAMITRA EXP</td><td> Ksr Bengaluru</td><td> 10:00 </td><td> Danapur </td><td>09:05 </td><td> Daily</td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr>
+<tr><td>20</td> <td><b>02296</b>  </td><td>DNR SBC SPL </td><td>Danapur </td><td>20:10 </td><td> Ksr Bengaluru</td><td> 20:20 </td><td> Daily </td><td><a href="booking1.html" target="detail"><font size="4px">select</font></a></tr> 
+</table>
+<br>
+
+</body>
+</html>
